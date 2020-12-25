@@ -2,6 +2,7 @@
 
 a <- c(423, 255, 65, 100, 200, 55, 29)
 
+# cria a função com a expressão function e os parametros nos parenteses
 soma <- function(y){
   x <- 0
   for(i in y){
@@ -9,6 +10,5 @@ soma <- function(y){
   }
   print(x)
 }
-# cria a função com a expressão funciton e os parametros nos parenteses
 
 soma (a)

@@ -1,15 +1,18 @@
 # Dataframes -> objetivo: trabalhar com banco de dados
 
-setwd("C:/dados")
 #Define o caminho onde estão localizados os dados
+setwd("C:/dados")
 
-df <- read.csv("dados.csv")
 # importa a base de dados1
+df <- read.csv("dados.csv")
 
-View(df)
 #visualiza o data frame
+View(df)
 
+#Mostra a estrutura dos dados compactamente
 str(df)
+
+#Summary traz um resumo estatistico da variavel
 summary(df)
 
 df
